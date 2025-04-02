@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:editTextStyle">@style/ResetEditText</item>
+    <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="android:statusBarColor">#ffffff</item>
+  </style>
+  <style name="ResetEditText" parent="@android:style/Widget.EditText">
+    <item name="android:padding">0dp</item>
+    <item name="android:textColorHint">#c8c8c8</item>
+    <item name="android:textColor">@android:color/black</item>
+  </style>
+  <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/splashscreen_background</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen_logo</item>
+    <item name="postSplashScreenTheme">@style/AppTheme</item>
+  </style>
+  <style name="CustomIntegrationAppTheme" parent="VideoCreationTheme">
+        <item name="android:windowBackground">@color/backgroundGlobalPrimary</item>
+        <item name="galleryAlbumBlurViewStyle">@style/GalleryAlbumBlurViewStyle</item>
+        <item name="galleryItemRadioButtonStyle">@style/GalleryItemRadioButtonStyle</item>
+        <item name="galleryItemTextStyle">@style/GalleryItemTextStyle</item>
+        <item name="selectedGalleryItemTextStyle">@style/SelectedGalleryItemTextStyle</item>
+        <item name="galleryTitleTextStyle">@style/GalleryTitleTextStyle</item>
+        <item name="galleryAlbumTitleTextStyle">@style/GalleryAlbumTitleTextStyle</item>
+        <item name="galleryAlbumDescTextStyle">@style/GalleryAlbumDescTextStyle</item>
+        <item name="galleryEmptyTextStyle">@style/GalleryEmptyTextStyle</item>
+        <item name="galleryBackButtonStyle">@style/GalleryBackButtonStyle</item>
+        <item name="galleryNextButtonStyle">@style/GalleryNextButtonStyle</item>
+        <item name="galleryAutoCutNextButtonStyle">@style/GalleryAutoCutNextButtonStyle</item>
+        <item name="galleryAutoCutButtonStyle">@style/GalleryAutoCutButtonStyle</item>
+        <item name="gallerySelectionDescriptionStyle">@style/GallerySelectionDescriptionStyle
+        </item>
+        <item name="galleryNextParentStyle">@style/GalleryNextParentStyle</item>
+        <item name="galleryImageViewStyle">@style/GalleryImageViewStyle</item>
+        <item name="galleryColumnsNumber">wrap_content</item>
+        <item name="galleryTabLayoutStyle">@style/GalleryTabLayoutStyle</item>
+        <item name="galleryTabTextColors">@color/gallery_tab_color_state_list</item>
+
+        <item name="gallery_bg_color">@color/black</item>
+        <item name="gallery_item_corner_radius">0dp</item>
+        <item name="gallery_item_margin">0.5dp</item>
+        <item name="gallery_album_divider_color">@color/transparent</item>
+
+        <item name="previewActionButtonStyle">@style/PreviewActionButtonStyle</item>
+        <item name="previewContainerStyle">@style/PreviewContainerStyle</item>
+        <item name="audioBrowserBottomSheetStyle">@style/AudioBrowserBottomSheetStyle</item>
+        <item name="audioBrowserTrackNameStyle">@style/AudioBrowserTrackNameStyle</item>
+        <item name="audioBrowserTrackDurationStyle">@style/AudioBrowserTrackDurationStyle</item>
+        <item name="audioBrowserTrackApplyBtnStyle">@style/AudioBrowserTrackApplyBtnStyle</item>
+        <item name="audioBrowserTrackErrorImageStyle">@style/AudioBrowserTrackErrorImageStyle
+        </item>
+        <item name="audioBrowserTrackPlaybackBtnStyle">@style/AudioBrowserTrackPlaybackBtnStyle
+        </item>
+        <item name="audioBrowserTrackSeekBarStyle">@style/AudioBrowserTrackSeekBarStyle</item>
+        <item name="audioBrowserTrackItemStyle">@style/AudioBrowserTrackItemStyle</item>
+        <item name="audioBrowserTrackItemDividerDrawable">@drawable/bg_track_item_divider</item>
+        <item name="audioBrowserTrackLoadMoreItemStyle">
+            @style/AudioBrowserTrackLoadMoreItemStyle
+        </item>
+        <item name="audioBrowserTrackLoadMoreStyle">@style/AudioBrowserTrackLoadMoreStyle</item>
+        <item name="audioBrowserThrobberViewStyle">@style/AudioBrowserThrobberViewStyle</item>
+        <item name="audioBrowserCategoryItemDividerDrawable">@null</item>
+        <item name="audioBrowserSubCategoryItemDividerDrawable">@drawable/bg_track_item_divider
+        </item>
+        <item name="audioBrowserCategoryItemStyle">@style/AudioBrowserCategoryItemStyle</item>
+        <item name="audioBrowserCategoryImageStyle">@style/AudioBrowserCategoryImageStyle</item>
+        <item name="audioBrowserCategoryNameStyle">@style/AudioBrowserCategoryNameStyle</item>
+        <item name="audioBrowserSubCategoryItemStyle">@style/AudioBrowserSubCategoryItemStyle
+        </item>
+        <item name="audioBrowserSubCategoryImageStyle">@style/AudioBrowserSubCategoryImageStyle
+        </item>
+        <item name="audioBrowserSubCategoryNameStyle">@style/AudioBrowserCategoryNameStyle
+        </item>
+        <item name="audioBrowserErrorViewStyle">@style/AudioBrowserErrorViewStyle</item>
+        <item name="audioBrowserRecyclerViewStyle">@style/AudioBrowserRecyclerViewStyle</item>
+        <item name="audioBrowserSearchViewStyle">@style/AudioBrowserSearchViewStyle</item>
+        <item name="audioBrowserCloseViewStyle">@style/AudioBrowserCloseViewStyle</item>
+        <item name="audioBrowserTitleViewStyle">@style/AudioBrowserTitleViewStyle</item>
+        <item name="audioBrowserLibraryViewStyle">@style/AudioBrowserLibraryViewStyle</item>
+        <item name="audioBrowserDownloadAnimationViewStyle">
+            @style/AudioBrowserDownloadAnimationViewStyle
+        </item>
+        <item name="audioBrowserDownloadCancelViewStyle">
+            @style/AudioBrowserDownloadCancelViewStyle
+        </item>
+        <item name="audioBrowserCameraTrackContainerStyle">
+            @style/AudioBrowserCameraTrackContainerStyle
+        </item>
+        <item name="audioBrowserCameraTrackIconViewStyle">
+            @style/AudioBrowserCameraTrackIconViewStyle
+        </item>
+        <item name="audioBrowserCameraTrackTitleViewStyle">
+            @style/AudioBrowserCameraTrackTitleViewStyle
+        </item>
+        <item name="audioBrowserCameraTrackResetBtnStyle">
+            @style/AudioBrowserCameraTrackResetBtnStyle
+        </item>
+        <item name="audioBrowserConnectionErrorTitle">
+            @style/AudioBrowserConnectionErrorTitleStyle
+        </item>
+        <item name="audioBrowserConnectionErrorMessage">
+            @style/AudioBrowserConnectionErrorMessageStyle
+        </item>
+        <item name="audioBrowserConnectionErrorBtn">@style/AudioBrowserConnectionErrorBtnStyle
+        </item>
+    </style>
+</resources>
